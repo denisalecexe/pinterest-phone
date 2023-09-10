@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#rettangolo {
+  background: black;
+  height: 520px;
+  width: 300px;
+}
+
+.text-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+p {
+  margin: 15px;
+  color: white;
+}
+
+.line-home {
+  background-color: white;
+  height: 3px;
+  width: 60px;
+  border-radius: 40px;
+  transform: translate(80px, -12px);
+}
+
+.image-home {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.line-image-one,
+.line-image-two {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.line-image-three {
+  height: 100px;
+  width: 150px;
+  object-fit:cover;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.text-image-uno,
+.text-image-due,
+.text-image-tre,
+.text-image-quattro {
+  margin: 1px;
+  font-size: 10px;
+  cursor: default;
+}
+
+.text-image-uno {
+  transform: translate(15px, -300px);
+}
+
+.text-image-due {
+  transform: translate(165px, -316px);
+}
+
+.text-image-tre {
+  transform: translate(15px, -162px);
+}
+
+.text-image-quattro {
+  transform: translate(165px, -178px);
+}
+
+.bi-three-dots-1,
+.bi-three-dots-2,
+.bi-three-dots-3,
+.bi-three-dots-4 {
+  color: white;
+  cursor: pointer;
+}
+
+.bi-three-dots-1 {
+  transform: translate(120px, -370px);
+}
+
+.bi-three-dots-2 {
+  transform: translate(245px, -370px);
+}
+
+.bi-three-dots-3 {
+  transform: translate(75px, -200px);
+}
+
+.bi-three-dots-4 {
+  transform: translate(200px, -200px);
+}
+
+.icon-navigation {
+  background-color:rgb(75, 75, 75);
+  height: 35px;
+  width: 200px;
+  transform: translate(50px, -134px);
+  border-radius: 15px;
+}
+
+.bi-house-door-fill,
+.bi-search,
+.bi-plus,
+.bi-chat-dots-fill,
+.bi-person-fill {
+  color: white;
+  margin-left: 10px;
+  transform: translate(5px, 0);
+}
+
